@@ -4,6 +4,8 @@ import path from 'path';
 import http from 'http';
 import { Server } from 'socket.io';
 
+import './dbConnect.js';
+
 const app = express();
 const PORT = process.env.DB_PORT || 3000;
 
