@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "socket-back.js",
   "type": "module",
+  "engines": {
+    "node": "18"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/socket-back.js"
